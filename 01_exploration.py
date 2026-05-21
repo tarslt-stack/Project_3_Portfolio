@@ -10,7 +10,7 @@ import os
 
 os.makedirs("outputs", exist_ok=True)
 
-df = pd.read_csv('C:\\Users\\Fatima\\Desktop\\Portfolio_project_3\\train.csv')
+df = pd.read_csv('.........') #path to csv fil "train.csv"
 
 print('Dimensions :', df.shape) # (1460, 81)
 print(df.head())

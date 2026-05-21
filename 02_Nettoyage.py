@@ -6,7 +6,7 @@
 import pandas as pd
 import os 
 os.makedirs('data',exist_ok=True)
-df = pd.read_csv('C:\\Users\\Fatima\\Desktop\\Portfolio_project_3\\train.csv')
+df = pd.read_csv('.................') # Path to csv fil "train.csv"
     # Colonnes numeriques : remplacer par la mediane
 num_cols = df.select_dtypes(include='number').columns
 df[num_cols] = df[num_cols].fillna(df[num_cols].median())
